@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&q=80&w=1000",
+    "title": "Samsung Plant Disease Detection Model",
+    "description": "Developed a CNN-based deep learning model to classify 10+ plant disease categories from leaf images. Trained and evaluated multiple architectures on 1000+ images with preprocessing and augmentation to improve robustness. Designed an inference pipeline for mobile deployment.",
+    "tags": ["Deep Learning", "CNN", "Computer Vision", "Python", "TensorFlow", "Image Processing"],
+    "repoLink": "https://github.com/Vishwaraj-636/DetectPlant",
+    "demoLink": null,
+    "metrics": [
+      "10+ disease classes",
+      "1000+ training images",
+      "3 architectures evaluated"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+    "title": "Online Payment Fraud Detection System",
+    "description": "Built machine learning models using Logistic Regression, Random Forest, and XGBoost to detect fraudulent financial transactions. Performed feature engineering and hyperparameter tuning, achieving high classification accuracy. Deployed via a Streamlit app for real-time prediction.",
+    "tags": ["Machine Learning", "XGBoost", "Random Forest", "Fraud Detection", "Python", "Streamlit"],
+    "repoLink": "https://github.com/Vishwaraj-636/React",
+    "demoLink": null,
+    "metrics": [
+      "280K+ transactions processed",
+      "99.97% accuracy",
+      "Real-time prediction system"
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&q=80&w=1000",
+    "title": "ScoopCast – Movie Discovery Platform",
+    "description": "Developed a responsive movie discovery platform integrating TMDB API to fetch and display 1000+ movies and TV shows. Implemented search, filtering, and dynamic rendering with asynchronous API handling.",
+    "tags": ["JavaScript", "API Integration", "Frontend", "TMDB API", "Responsive Design"],
+    "repoLink": "https://github.com/Vishwaraj-636/React",
+    "demoLink": "https://vishwaraj1523.github.io/ScoopCast/",
+    "metrics": [
+      "1000+ movies fetched",
+      "Real-time API integration",
+      "Dynamic filtering system"
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=1000",
+    "title": "Productivity Dashboard Website",
+    "description": "Built a multi-feature productivity dashboard integrating To-Do List, Daily Planner, Pomodoro Timer, and motivation module. Included real-time date, weather, and location data with a responsive UI for cross-device usability.",
+    "tags": ["JavaScript", "Dashboard", "Productivity", "UI/UX", "Responsive Design"],
+    "repoLink": "https://github.com/Vishwaraj-636/Productivity-dashboard",
+    "demoLink": "https://vishwaraj-636.github.io/Productivity-dashboard/",
+    "metrics": [
+      "4 integrated productivity tools",
+      "Real-time data integration",
+      "Responsive across devices"
+    ]
+  }
+]

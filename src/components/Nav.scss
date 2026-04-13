@@ -1,0 +1,27 @@
+nav{
+    width: 100%;
+    color: white;
+    padding: 0.15rem 0.5rem;
+    background-color: #9e9e9e1b;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+
+    .left,.right{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 10px;
+    }
+
+    .left{
+        .name{
+            background-color: #7e76762a;
+            padding: 3px 7px;
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+        }
+    }
+}

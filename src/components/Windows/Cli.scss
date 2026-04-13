@@ -1,0 +1,44 @@
+.cliWin {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #000;
+
+    /* Force the emulator wrapper to be transparent */
+    >div {
+        background-color: transparent !important;
+    }
+}
+
+
+.react-console-emulator::-webkit-scrollbar {
+    width: 6px;
+}
+
+.react-console-emulator::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.react-console-emulator::-webkit-scrollbar-thumb {
+    background: #30363d;
+    border-radius: 4px;
+}
+
+.react-console-emulator__prompt {
+    color: #58a6ff;
+    font-weight: 500;
+}
+
+.react-console-emulator__input {
+    color: #ffffff;
+}
+
+div[react-console-emulator__output] {
+    background-color: transparent !important;
+}
+.react-console-emulator__output {
+    color: #c9d1d9;
+    white-space: pre-wrap;
+}

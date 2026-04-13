@@ -1,0 +1,103 @@
+.window {
+    height: 100%;
+    background-color: black;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #0d1117;
+    box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+    transition: width 180ms ease, height 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+
+    .nav {
+        border-bottom: 1px solid rgba(245, 245, 245, 0.288);
+        height: 48px;
+        display: flex;
+        align-items: center;
+
+        .dots {
+            display: flex;
+            gap: 5px;
+            justify-content: flex-end;
+            padding: 0 0.75rem;
+        }
+
+        .dot {
+            height: 14px;
+            width: 14px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dot.minus {
+            background-image: url('/navbar-icon/minus-svgrepo-com.svg');
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position: center;
+            background-color: rgb(112, 247, 112);
+            cursor: pointer;
+        }
+
+        .dot.square {
+            cursor: pointer;
+            background-image: url('/navbar-icon/square.svg');
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position: center;
+            background-color: rgb(243, 241, 112);
+        }
+
+        .dot.cross {
+            cursor: pointer;
+            background-image: url('/navbar-icon/cross.svg');
+            background-repeat: no-repeat;
+            background-size: 70%;
+            background-position: center;
+            background-color: rgb(252, 99, 99);
+        }
+    }
+
+    &.minimized {
+        width: 260px;
+        height: 48px;
+
+        .main-content {
+            display: none;
+        }
+
+        box-shadow: 0 6px 18px rgba(2, 6, 23, 0.45);
+    }
+
+    &.maximized {
+        border-radius: 0.5rem;
+        width: calc(100vw - 20px);
+        height: calc(100vh - 20px);
+        left: 10px;
+        top: 10px;
+    }
+
+    .main-content {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: auto;
+        transition: opacity 160ms ease;
+
+        .cliWindow {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    *::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: gray;
+        border-radius: 4px;
+    }
+
+}
