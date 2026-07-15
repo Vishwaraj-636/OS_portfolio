@@ -5,7 +5,11 @@ const Resume = ({ windowName, setwindowsState }) => {
   return (
     <MacWindow windowName={windowName} setwindowsState={setwindowsState}>
       <div className="resumeWin">
-        <iframe src="public\resume.pdf" frameborder="0"></iframe>
+        <iframe
+          src={`${import.meta.env.BASE_URL}resume.pdf`}
+          frameBorder="0"
+          title="Resume"
+        ></iframe>
       </div>
     </MacWindow>
   );
