@@ -132,7 +132,7 @@ Interactive developer terminal initialized.
 Type 'help' to begin
 `;
 
-const Cli = ({windowName,setwindowsState}) => {
+const Cli = ({ windowName, setwindowsState }) => {
   return (
     <MacWindow windowName={windowName} setwindowsState={setwindowsState}>
       <div className="cliWin">
